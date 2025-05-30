@@ -1,0 +1,42 @@
+body {
+  margin: 12px;
+  background-color: #F2F2F2;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 125%;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin: auto;
+}
+
+.note {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  cursor: grab;
+  user-select: none;
+  box-shadow: 0px 2.5px 10px rgba(0, 0, 0, 0.1);
+  transform: rotate(-2.5deg);
+  padding: 16px;
+  box-sizing: border-box;
+  margin: 0 7px 0 0;
+}
+
+.note:active {
+  cursor: grabbing;
+}
+
+.yellow {
+  background-color: #FFEE6D;
+  color: #000000;
+}
+
+.green {
+  background-color: #8FFF6D;
+  color: #000000;
+}
